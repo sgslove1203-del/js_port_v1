@@ -142,6 +142,7 @@ export default function App() {
   ];
 
   const educations = [
+    { date: "2026. 04", text: "AI 컨텐츠 크리에이터 교육 수료" },
     { date: "2023.07 - 2025.05", text: "광고대행사 AE 실무 경험 기반 커리어 확장" },
     { date: "2023.04 - 2023.05", text: "콘텐츠 기획 및 제작 관련 교육 수료" },
     { date: "2022.06 - 2022.07", text: "실무 중심 마케팅 프로젝트 참여" },
@@ -210,9 +211,9 @@ export default function App() {
           >
             <div className="relative w-[400px] h-[550px] bg-brand-orange rounded-t-full flex items-center justify-center overflow-hidden border-[12px] border-white shadow-2xl">
               <img 
-                src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=3088&auto=format&fit=crop" 
+                src="https://github.com/sgslove1203-del/js_port_v1/raw/f98dbd2faea15301fa684841e1f4c2163abe9db2/ChatGPT%20Image%202026%EB%85%84%203%EC%9B%94%207%EC%9D%BC%20%EC%98%A4%EC%A0%84%2002_16_05.png" 
                 alt="Ji-su Seo"
-                className="absolute inset-0 w-full h-full object-cover grayscale-[0.2]"
+                className="absolute inset-0 w-full h-full object-cover"
                 referrerPolicy="no-referrer"
               />
               <div className="absolute top-8 right-8">
@@ -249,9 +250,9 @@ export default function App() {
           <div className="relative order-2 md:order-1">
              <div className="w-full aspect-square bg-brand-lavender rounded-3xl overflow-hidden relative border border-slate-100 flex items-center justify-center">
                 <img 
-                  src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=2788&auto=format&fit=crop" 
+                  src="https://github.com/sgslove1203-del/js_port_v1/raw/f98dbd2faea15301fa684841e1f4c2163abe9db2/ChatGPT%20Image%202026%EB%85%84%203%EC%9B%94%207%EC%9D%BC%20%EC%98%A4%EC%A0%84%2002_16_05.png" 
                   alt="Working" 
-                  className="w-full h-full object-cover mix-blend-multiply opacity-50"
+                  className="w-full h-full object-cover"
                   referrerPolicy="no-referrer"
                 />
                 <motion.div 
@@ -335,19 +336,36 @@ export default function App() {
                   <h3 className="text-xl font-bold">POPPLY(자사 플랫폼)</h3>
                 </div>
                 <div className="space-y-4">
-                  <div className="p-4 rounded-2xl bg-brand-lavender/30 flex justify-between items-center group cursor-pointer hover:bg-brand-lavender/50 transition-all">
+                  <a 
+                    href="https://www.popply.co.kr/magazine/2"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="p-4 rounded-2xl bg-brand-lavender/30 flex justify-between items-center group cursor-pointer hover:bg-brand-lavender/50 transition-all"
+                  >
                     <div>
                       <p className="font-bold">웹 매거진 콘텐츠 작성</p>
                       <p className="text-xs text-slate-500">팝플리 (Popply) | 2023</p>
                     </div>
                     <ExternalLink className="w-4 h-4 opacity-0 group-hover:opacity-100 transition-opacity" />
-                  </div>
-                  <div className="p-4 rounded-2xl bg-brand-lavender/30 flex justify-between items-center group cursor-pointer hover:bg-brand-lavender/50 transition-all">
-                    <div>
-                      <p className="font-bold">개인 SNS 채널 운영</p>
-                      <p className="text-xs text-slate-500">콘텐츠 실험 및 성과 분석 | 2025 ~ ing</p>
+                  </a>
+                  <div className="p-4 rounded-2xl bg-brand-lavender/30 group cursor-pointer hover:bg-brand-lavender/50 transition-all">
+                    <div className="flex justify-between items-center mb-4">
+                      <div>
+                        <p className="font-bold">개인 SNS 채널 운영</p>
+                        <p className="text-xs text-slate-500">콘텐츠 실험 및 성과 분석 | 2025 ~ ing</p>
+                      </div>
+                      <ExternalLink className="w-4 h-4 opacity-0 group-hover:opacity-100 transition-opacity" />
                     </div>
-                    <ExternalLink className="w-4 h-4 opacity-0 group-hover:opacity-100 transition-opacity" />
+                    <div className="rounded-xl overflow-hidden border border-slate-200">
+                      <video 
+                        controls 
+                        className="w-full h-auto aspect-video object-cover"
+                        poster="https://images.unsplash.com/photo-1611162617474-5b21e879e113?q=80&w=2874&auto=format&fit=crop"
+                      >
+                        <source src="https://github.com/sgslove1203-del/js_port_v1/raw/9874475b9c45c6e5649c49d60cc7612f4f442ca7/0423%20%EC%8B%A4%EC%8A%B5_%EC%B9%9C%ED%99%98%EA%B2%BD%20%EB%B8%8C%EB%9E%9C%EB%93%9C%20%EC%98%81%EC%83%81(%EB%B7%B0%ED%8B%B0).mp4" type="video/mp4" />
+                        Your browser does not support the video tag.
+                      </video>
+                    </div>
                   </div>
                 </div>
              </motion.div>
